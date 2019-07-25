@@ -8,13 +8,15 @@
 
 @import UIKit;
 #import "CCAppDelegate.h"
-#import <test.h>
+#import <TestSDK/test.h>
+#import <TestSDK/test1.h>
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
         test *t = [[test alloc] init];
         [t helloWorld];
+        
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([CCAppDelegate class]));
     }
 }

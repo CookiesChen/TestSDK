@@ -11,6 +11,7 @@
 #endif
 
 #import "test.h"
+#import "test1.h"
 
 FOUNDATION_EXPORT double TestSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char TestSDKVersionString[];
